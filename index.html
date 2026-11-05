@@ -1,24 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AYO</title>
-        <link rel="stylesheet" href="ayo.css">
-       
-    </head>
-    <body>
-       <div class="container">
-        <h1 >Welcome to AYO's website</h1>
-        <p>This is a little summary about me</p>
-        <div class="aboutSection">
-            <h2>About Me</h2>
-            <p>I am a very lazy girl who doesn't read only play</p>
-            <p>My hobbies are playing games and watching anime</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayomide Raji</title>
+    <link rel="stylesheet" href="ayo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">AR.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-           <p>Please feel free to contact me if you want to know more about me.</p>
-        </div>
-        <img src="../images/sprite.png" alt="sprite image">
-       </div>
-    </body>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <span class="badge">Ayomide Raji</span>
+                <h1>Just being a student.</h1>
+                <p class="lead">I'm Ayomide Raji, a secondary school student. I enjoy life, spend time with friends, and keep things simple.</p>
+            </div>
+            <div class="hero-image">
+                <img src="images/img-1.jpeg" alt="Ayomide Raji">
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hi, I'm Ayomide Raji. I'm a secondary school student. I don't build things or work on projects — I'm just here learning, growing, and enjoying being a teenager.</p>
+                    <p>I like playing games and watching anime in my free time. That's pretty much me.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">Student</span>
+                            <span class="stat-label">Secondary School</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">Games</span>
+                            <span class="stat-label">Playing</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">Anime</span>
+                            <span class="stat-label">Watching</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-facts">
+                    <h3>Quick Facts</h3>
+                    <ul class="facts-list">
+                        <li><strong>Name:</strong> Ayomide Raji</li>
+                        <li><strong>Status:</strong> Secondary school student</li>
+                        <li><strong>Hobbies:</strong> Gaming, anime</li>
+                        <li><strong>Motto:</strong> Just enjoy life</li>
+                        <li><strong>Contact:</strong> Feel free to reach out</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <div class="section-header">
+                <h2>Pictures</h2>
+                <p>A few photos of me.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/img-1.jpeg" alt="Ayomide Raji photo 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/img-2.jpeg" alt="Ayomide Raji photo 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/img-3.jpeg" alt="Ayomide Raji photo 3">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-content">
+                <h2>Get in Touch</h2>
+                <p>Feel free to contact me if you want to know more about me.</p>
+                <a href="mailto:hello@ayomideraji.com" class="btn btn-primary">Email me</a>
+                <div class="socials">
+                    <p>Follow along:</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Ayomide Raji. Just a student.</p>
+    </footer>
+</body>
 </html>
